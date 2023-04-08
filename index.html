@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <title>MathCats</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="A math quiz game for young students.">
+    <meta name="author" content="Group 83">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main-menu">
+        <div id="settings_button">
+            <button>
+                <img src="assets/settings.png" width="40px"/>
+            </button>
+        </div>
+        <div id="logo">
+            <img src="assets/logo.png" width="1250px"/>
+        </div>
+        <div id="menu">
+            <button class="menu_button" onclick="window.location.href='choose.html';">
+                <b>Play</b>
+            </button>
+            <br>
+            <button class="menu_button" onclick="window.location.href='instructions.html';">
+                <b>Instructions</b>
+            </button>
+        </div>
+    </div>
+
+    <div id="settings">
+        <button id="close-btn">&times;</button>
+        <h1>Settings</h1>
+        Audio:
+        <img src="assets/audioon.png" width="40px" id="audiobtn" onclick="changeImage()"/>
+        <br>
+        Language:
+        <select name="langs" id="langs">
+            <option value="english">English</option>
+            <option value="spanish">Spanish</option>
+            <option value="french">French</option>
+            <option value="hindi">Hindi</option>
+        </select>
+        <br>
+    </div>
+    
+    <script src="index_script.js"></script>
+</body>
+</html>
