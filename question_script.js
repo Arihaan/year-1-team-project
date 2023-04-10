@@ -5,6 +5,7 @@ function onTimer() {
     i--;
     if (i < 0) {
         alert('You ran out of time!');
+        window.location.href='choose.html';
     }
     else {
         setTimeout(onTimer, 1000);
@@ -12,3 +13,9 @@ function onTimer() {
 }
 
 onTimer();
+
+function wrongAns() {
+    alert("You chose the wrong answer!");
+    window.location.href='choose.html';
+}
+
