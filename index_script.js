@@ -1,5 +1,5 @@
 
-document.querySelector("#settings_button").addEventListener("click", function(){
+document.querySelector("#s-btn").addEventListener("click", function(){
     document.body.classList.add("settings-on");
     document.getElementsByClassName("menu_button")[0].disabled = true;
     document.getElementsByClassName("menu_button")[1].disabled = true;
