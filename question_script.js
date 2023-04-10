@@ -19,3 +19,9 @@ function wrongAns() {
     window.location.href='choose.html';
 }
 
+
+function youWin() {
+    alert("You win!");
+    window.location.href='index.html';
+}
+
